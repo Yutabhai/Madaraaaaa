@@ -13,12 +13,10 @@ from config import API_HASH, APP_ID, LOGGER, TG_BOT_TOKEN, TG_BOT_WORKERS, FORCE
 
 
 name ="""     
-░█████╗░███╗░░██╗██╗███╗░░░███╗███████╗██╗░░██╗██╗░░░██╗███╗░░██╗████████╗███████╗██████╗░░██████╗
-██╔══██╗████╗░██║██║████╗░████║██╔════╝██║░░██║██║░░░██║████╗░██║╚══██╔══╝██╔════╝██╔══██╗██╔════╝
-███████║██╔██╗██║██║██╔████╔██║█████╗░░███████║██║░░░██║██╔██╗██║░░░██║░░░█████╗░░██████╔╝╚█████╗░
-██╔══██║██║╚████║██║██║╚██╔╝██║██╔══╝░░██╔══██║██║░░░██║██║╚████║░░░██║░░░██╔══╝░░██╔══██╗░╚═══██╗
-██║░░██║██║░╚███║██║██║░╚═╝░██║███████╗██║░░██║╚██████╔╝██║░╚███║░░░██║░░░███████╗██║░░██║██████╔╝
-╚═╝░░╚═╝╚═╝░░╚══╝╚═╝╚═╝░░░░░╚═╝╚══════╝╚═╝░░╚═╝░╚═════╝░╚═╝░░╚══╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═════╝░
+
+░█▀▀▀█ ░█─░█ ░█─▄▀ ░█─░█ ░█▄─░█ ─█▀▀█ 
+─▀▀▀▄▄ ░█─░█ ░█▀▄─ ░█─░█ ░█░█░█ ░█▄▄█ 
+░█▄▄▄█ ─▀▄▄▀ ░█─░█ ─▀▄▄▀ ░█──▀█ ░█─░█
 """
 
 
@@ -50,7 +48,7 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(a)
                 self.LOGGER(__name__).warning("Bot can't Export Invite link from Force Sub Channel!")
                 self.LOGGER(__name__).warning(f"Please Double check the REQUEST_CHANNEL1 value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: {CHANNEL_ONE}")
-                self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/Anime_X_Hunters for support")
+                self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/Anime_Bloodline for support")
                 sys.exit()
         if REQUEST_CHANNEL2:
             try:
@@ -60,7 +58,7 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(b)
                 self.LOGGER(__name__).warning("Bot can't Export Invite link from Force Sub Channel!")
                 self.LOGGER(__name__).warning(f"Please Double check the REQUEST_CHANNEL2 value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: {CHANNEL_TWO}")
-                self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/Anime_X_Hunters for support")
+                self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/Anime_Bloodline for support")
                 sys.exit()
         try:
             db_channel = await self.get_chat(CHANNEL_ID)
@@ -70,18 +68,16 @@ class Bot(Client):
         except Exception as e:
             self.LOGGER(__name__).warning(e)
             self.LOGGER(__name__).warning(f"Make Sure bot is Admin in DB Channel, and Double check the CHANNEL_ID Value, Current Value {CHANNEL_ID}")
-            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/https://t.me/Anime_X_Hunters for support")
+            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/https://t.me/Anime_Bloodline for support")
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/Its_Oreki_Hotarou")
+        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/RarelySukuna")
         self.LOGGER(__name__).info(f""" \n\n       
-░█████╗░███╗░░██╗██╗███╗░░░███╗███████╗██╗░░██╗██╗░░░██╗███╗░░██╗████████╗███████╗██████╗░░██████╗
-██╔══██╗████╗░██║██║████╗░████║██╔════╝██║░░██║██║░░░██║████╗░██║╚══██╔══╝██╔════╝██╔══██╗██╔════╝
-███████║██╔██╗██║██║██╔████╔██║█████╗░░███████║██║░░░██║██╔██╗██║░░░██║░░░█████╗░░██████╔╝╚█████╗░
-██╔══██║██║╚████║██║██║╚██╔╝██║██╔══╝░░██╔══██║██║░░░██║██║╚████║░░░██║░░░██╔══╝░░██╔══██╗░╚═══██╗
-██║░░██║██║░╚███║██║██║░╚═╝░██║███████╗██║░░██║╚██████╔╝██║░╚███║░░░██║░░░███████╗██║░░██║██████╔╝
-╚═╝░░╚═╝╚═╝░░╚══╝╚═╝╚═╝░░░░░╚═╝╚══════╝╚═╝░░╚═╝░╚═════╝░╚═╝░░╚══╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═════╝░
+
+░█▀▀▀█ ░█─░█ ░█─▄▀ ░█─░█ ░█▄─░█ ─█▀▀█ 
+─▀▀▀▄▄ ░█─░█ ░█▀▄─ ░█─░█ ░█░█░█ ░█▄▄█ 
+░█▄▄▄█ ─▀▄▄▀ ░█─░█ ─▀▄▄▀ ░█──▀█ ░█─░█
                                           """)
         self.username = usr_bot_me.username
         # web-response
