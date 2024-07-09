@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7023012999:AAERm2DGO2pteIDwNHE8J5wYTYv0eILA2-o")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7006740293:AAF7_wLTOTmPinvJeCyMojsWAT2B4vp0s4o")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "23902408"))
@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "23902408"))
 API_HASH = os.environ.get("API_HASH", "6a36a4ef2f07d63aeba7b53b99c64d73")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001918867134"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002219424361"))
 
 REQUEST_CHANNEL1 = int(os.environ.get("CHANNEL_ONE", "-1002043384458"))
 REQUEST_CHANNEL2 = int(os.environ.get("CHANNEL_TWO", "0"))
@@ -39,7 +39,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
 HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Movies_Seires_Universe\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻 Developed by <a href=https://t.me/RarelySukuna>S U K U N A</a></b>"
 
-ABOUT_TXT = "<b>⟦⟧ Hi There {first}!💫\n┏━━━━━━━❪❂❫━━━━━━━━\n◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/RarelySukuna>S U K U N A</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Movies_Series_Universe>Movies & Series Universe</a>\n◈ ᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Movies_Series_Universe>ᴏɴɢᴏɪɴɢ HINDI</a>\n◈ Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>\n◈ ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://dashboard.heroku.com>Heroku</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/RarelySukuna>S U K U N A</a>\n┗━━━━━━━❪❂❫━━━━━━━━</b>"
+ABOUT_TXT = "<b>⟦⟧ Hi There {first}!💫\n┏━━━━━━━❪❂❫━━━━━━━━\n◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/RarelySukuna>S U K U N A</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Movies_Series_Universe>Movies & Series Universe</a>\n◈ Movies Channel : <a href=https://t.me/Movies_Series_Universe>Movies Channel</a>\n◈ Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>\n◈ ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://dashboard.heroku.com>Heroku</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/RarelySukuna>S U K U N A</a>\n┗━━━━━━━❪❂❫━━━━━━━━</b>"
 
 START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/725efe176921505892fbe.jpg")
 
