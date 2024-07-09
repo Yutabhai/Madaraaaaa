@@ -41,7 +41,7 @@ HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Movies_Seires_Uni
 
 ABOUT_TXT = "<b>⟦⟧ Hi There {first}!💫\n┏━━━━━━━❪❂❫━━━━━━━━\n◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/RarelySukuna>S U K U N A</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Movies_Series_Universe>Movies & Series Universe</a>\n◈ Movies Channel : <a href=https://t.me/Movies_Series_Universe>Movies Channel</a>\n◈ Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>\n◈ ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://dashboard.heroku.com>Heroku</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/RarelySukuna>S U K U N A</a>\n┗━━━━━━━❪❂❫━━━━━━━━</b>"
 
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/725efe176921505892fbe.jpg")
+START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/7f3167ecb289c9a0d701e.jpg")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
