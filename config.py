@@ -35,7 +35,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://mex:rex@cluster7.jrzowqz.
 DB_NAME = os.environ.get("DATABASE_NAME", "jhatu")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002173795861")"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002173795861"))
 
 HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Movies_Seires_Universe\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻 Developed by <a href=https://t.me/RarelySukuna>S U K U N A</a></b>"
 
