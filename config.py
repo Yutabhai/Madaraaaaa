@@ -19,9 +19,9 @@ APP_ID = int(os.environ.get("APP_ID", "23902408"))
 API_HASH = os.environ.get("API_HASH", "6a36a4ef2f07d63aeba7b53b99c64d73")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001918867134"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002219424361"))
 
-REQUEST_CHANNEL1 = int(os.environ.get("CHANNEL_ONE", "-1002173795861"))
+REQUEST_CHANNEL1 = int(os.environ.get("CHANNEL_ONE", "0"))
 REQUEST_CHANNEL2 = int(os.environ.get("CHANNEL_TWO", "-1002148699593"))
 
 #OWNER ID
@@ -35,7 +35,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://mex:rex@cluster7.jrzowqz.
 DB_NAME = os.environ.get("DATABASE_NAME", "jhatu")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002173795861")"))
 
 HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Movies_Seires_Universe\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻 Developed by <a href=https://t.me/RarelySukuna>S U K U N A</a></b>"
 
