@@ -156,7 +156,7 @@ async def start_command(client: Client, message):
             [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help'),
              InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data='about')],
             [InlineKeyboardButton('⚡ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ⚡', url='https://t.me/Anime_Bloodline'),
-             InlineKeyboardButton('💀ᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ💀', url='https://t.me/Ongoing_Anime_In_Hindi_Official')],
+             InlineKeyboardButton('💀ᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ💀', url='https://t.me/Ongoing_Anime_Bloodline')],
             [InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data='close')]
         ])
         await message.reply_photo(
