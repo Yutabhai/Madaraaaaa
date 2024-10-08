@@ -41,7 +41,7 @@ HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Anime_Bloodline\n
 
 ABOUT_TXT = "<b>⟦⟧ Hi There {first}!💫\n┏━━━━━━━❪❂❫━━━━━━━━\n◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/ShadowKakashi>ઝꪋઝꪋઽꫝꪱ</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Anime_Bloodline>ANIME CHANNEL</a>\n◈ ANIME CHANNEL : <a href=https://t.me/Anime_Bloodline>ANIME CHANNEL</a>\n◈ Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>\n◈ ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://dashboard.heroku.com>Heroku</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/ShadowKakashi>ઝꪋઝꪋઽꫝꪱ</a>\n┗━━━━━━━❪❂❫━━━━━━━━</b>"
 
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/7f3167ecb289c9a0d701e.jpg")
+START_PIC = os.environ.get("START_PIC", "https://envs.sh/ILN.jpg")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
