@@ -19,13 +19,13 @@ APP_ID = int(os.environ.get("APP_ID", "20860620"))
 API_HASH = os.environ.get("API_HASH", "25d2343b36fc5aea3604c6c50a8e2b59")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002219424361"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002213021629"))
 
-REQUEST_CHANNEL1 = int(os.environ.get("CHANNEL_ONE", "-1002173795861"))
-REQUEST_CHANNEL2 = int(os.environ.get("CHANNEL_TWO", "-1002148699593"))
+REQUEST_CHANNEL1 = int(os.environ.get("CHANNEL_ONE", "-1002308576365"))
+REQUEST_CHANNEL2 = int(os.environ.get("CHANNEL_TWO", "-1002467563332"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7179837246"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6199677027"))
 
 #Port
 PORT = os.environ.get("PORT", "8090")
@@ -49,7 +49,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {first}! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - @Anime_Bloodline</b>")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "7179837246").split()):
+    for x in (os.environ.get("ADMINS", "6199677027,6407720267,7050116326,5023980749,7385295244").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
